@@ -1,0 +1,19 @@
+const country = 'Bangladesh';
+const division = "Bowalmari";
+const district = 'Faridpur';
+const thana = new String('Alphadanga');
+console.log(typeof country);
+console.log(typeof thana);
+
+//Array is mutable --> changeable
+const numbers = [54, 68, 67, 39, 20, 50];
+console.log(numbers.length);
+console.log(numbers[3]);
+console.log(numbers);
+numbers[3] = 40;
+console.log(numbers);
+
+// String is kind of array but not array, and it's immutable mean not changeable
+const capital = 'Dhaka'; // Total space string length means. like Dhaka = 5 ; Dha ka = 6
+console.log(capital.length);
+console.log(capital[3]);
