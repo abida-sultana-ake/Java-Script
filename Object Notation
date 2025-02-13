@@ -1,0 +1,21 @@
+const person = {
+    name: 'Rashed',
+    age: 25,
+    profession: 'developer',
+    salary: 25000,
+    married: false
+}
+console.log(person);
+
+//dot notation
+//method = 1
+console.log(person.profession);
+//method = 2
+const income = person.salary;
+console.log(income);
+
+//bracket notation
+//third bracket for accessing value
+console.log(person['age']);
+const boyos = person['age'];
+console.log(boyos);
