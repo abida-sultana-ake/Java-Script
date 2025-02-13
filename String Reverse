@@ -1,0 +1,25 @@
+// Reverse String
+//System - 1
+const sentence = 'I am learning web dev.'
+let reverse = '';
+for(const letter of sentence)
+{
+    //console.log(letter);
+    reverse = letter + reverse;
+}
+console.log(reverse);
+
+//system - 2 (ignore this)
+let rev = '';
+for(let i=0; i<=sentence.length; i++)
+{
+    console.log(i);
+    console.log(sentence[i]);
+    const letter = sentence[i];
+    rev = letter + rev;
+}
+console.log(rev);
+
+//system - 3 (short cut)
+const reversed = sentence.split('').reverse().join('');
+console.log(reversed);
