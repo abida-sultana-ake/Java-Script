@@ -1,0 +1,30 @@
+const school = 'RAJ UK  Uttara Model School';
+console.log(school);
+console.log(school.toLowerCase()); //Lower case
+console.log(school.toUpperCase()); //Uppercase
+
+// Upper case and lower case 
+const subject = 'Chemistry';
+const book = 'chemistry';
+
+if(subject === book)
+{
+    console.log('I am reading book eibar porikkhay fatay dibo');
+}
+else
+{
+    console.log('Huday page ultai ar bhat khai');
+}
+
+//Trim --> spacing
+const drink = ' Water ';
+const liquid = ' Water';
+
+if(drink.trim() === liquid.trim())
+{
+    console.log("Pani r opor name jibon");
+}
+else
+{
+    console.log("Mamu mara khao");
+}
