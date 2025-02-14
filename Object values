@@ -1,0 +1,9 @@
+const computer = {
+    brand : 'Lenevo',
+    price : 35000,
+    processor : 'Intel',
+    hdd : '551gb'
+}
+
+const values = Object.values(computer);
+console.log(values);
