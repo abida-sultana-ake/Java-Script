@@ -1,0 +1,9 @@
+const computer = {
+    brand : 'Lenevo',
+    price : 35000,
+    processor : 'Intel',
+    hdd : '551gb'
+}
+
+const keys = Object.keys(computer);
+console.log(keys);
