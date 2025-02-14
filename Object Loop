@@ -1,0 +1,30 @@
+const mobile = {
+    brand : 'Samsung',
+    Price : 250000,
+    color : 'Black',
+    camera : '38mp',
+    isNew : true
+}
+
+// for of : array
+// for in : object
+for(const prop in mobile)
+{
+    console.log(prop);
+    console.log(mobile[prop]);
+}
+
+// another example
+const car = {
+    brand : 'BMW',
+    Price : 300000000,
+    color : 'Black',
+    isNew : true
+}
+
+const keys = Object.keys(car);
+console.log(keys);
+for(const key of keys)
+{
+    console.log(key, ' : ' , mobile[key]);
+}
