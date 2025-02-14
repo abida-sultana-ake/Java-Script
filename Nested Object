@@ -1,0 +1,18 @@
+const college = {
+    name :'BNMPC',
+    class : [1,2,3,4,5,6,7,8,9,10,11,12],
+    events : ['Science fest', 'Bijoy Dibos', 'Pitha Utshob', 'Nobanno', 'Art fest'],
+    unique : {
+        color : 'blue',
+        result : {
+            GPA : 5.00,
+            marit : 'Top'
+        }
+    }
+}
+console.log(college.name);
+console.log(college.unique.color);
+console.log(college.unique.result.marit);
+console.log(college.events[1]);
+delete college.class;
+console.log(college);
