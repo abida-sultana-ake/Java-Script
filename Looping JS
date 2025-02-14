@@ -1,0 +1,26 @@
+// Looping technique
+// 1. For loop
+// 2. While loop
+// 3. Do .... while loop --> ignore
+// 4. for of --> Array loop 
+// 5. for in --> obj
+
+const friends = ['Aka', 'Nuhash', 'Mark'];
+
+for(const friend of friends)
+{
+    console.log(friend);
+}
+
+for(let i=0; i<friends.length; i++)
+{
+    console.log(i);
+    console.log(friends[i]);
+}
+
+const numbers = [5, 12, 14, 16, 18, 30];
+
+for(let i=0; i<numbers.length; i++)
+{
+    console.log(numbers[i]);
+}
