@@ -1,0 +1,20 @@
+const persons = ['Abida', 'Mahiya', 'Bushra'];
+const sortedPersons = persons.sort();
+console.log(sortedPersons); // ["Abida", "Bushra", "Mahiya"]
+
+const numbers = [2, 3, 6, 4, 7, 1, 5];
+
+// Ascending order (smallest to largest)
+const numbers_asc = [...numbers].sort((a, b) => a - b);
+console.log(numbers_asc); // [1, 2, 3, 4, 5, 6, 7]
+
+// Descending order (largest to smallest)
+const numbers_dsc = [...numbers].sort((a, b) => b - a);
+console.log(numbers_dsc); // [7, 6, 5, 4, 3, 2, 1]
+
+// Exception example
+const nums = [4, 7, 12, 6, 8, 43, 1];
+const nums_asc = [...nums].sort((a, b) => a - b);
+const nums_dsc = [...nums].sort((a, b) => b - a);
+console.log(nums_asc); // [1, 4, 6, 7, 8, 12, 43]
+console.log(nums_dsc); // [43, 12, 8, 7, 6, 4, 1]
