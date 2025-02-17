@@ -1,0 +1,28 @@
+// Even
+function isEven(number)
+{
+    if(number % 2 === 0)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+console.log('Even: ', isEven(5));
+console.log('Even: ', isEven(110));
+
+//odd
+function isOdd(number)
+{
+    if(number % 2 === 1)
+    {
+        return true;
+    }
+    return false;
+}
+
+console.log('Odd: ', isOdd(15));
+console.log('Odd: ', isOdd(220));
