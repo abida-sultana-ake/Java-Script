@@ -1,0 +1,13 @@
+const colors = ['red', 'blue', 'green', 'yellow', 'orange'];
+
+//Method - 1 
+const revColors = colors.reverse();
+console.log(revColors);
+
+//Method - 2
+const revC = [];
+for(let i=colors.length-1; i>=0; i--)
+{
+    revC.push(colors[i]);
+}
+console.log(revC);
