@@ -1,0 +1,13 @@
+function sumOfNumbers(numbers){
+
+    let sum = 0;
+    for(number of numbers)
+    {
+        console.log(number);
+        sum += number;
+    }
+    return sum;
+}
+const nums = [34, 56, 78, 68];
+const sum = sumOfNumbers(nums);
+console.log('Sum of number is: ', sum);
