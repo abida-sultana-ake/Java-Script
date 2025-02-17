@@ -1,0 +1,8 @@
+var numbers = ['Tom', 'Tim', 'Tin', 'Tik']
+var result = ''; 
+
+for(var item of numbers)
+{
+    result += item;
+}
+console.log(result);
