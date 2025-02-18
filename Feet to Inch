@@ -1,0 +1,23 @@
+// 12 inch = 1ft
+
+function inchToFeet(inch)
+{
+    const ft = inch / 12;
+    return ft;
+}
+
+//ignore this one
+function inchToFeet2(inch)
+{
+    const ftFraction = inch / 12;
+    const ftNumber = parseInt(ftFraction);
+    const inchRemaining = inch % 12;
+    const result = ftNumber + ' ft ' + inchRemaining + ' inch.';
+    return result;
+}
+const abidaHeight = inchToFeet(75);
+console.log(abidaHeight);
+
+const AlomgirHeight = inchToFeet2(87);
+console.log(AlomgirHeight);
+
