@@ -1,0 +1,33 @@
+// method - 1
+let a = 5;
+let b = 6;
+let temp;
+
+console.log(a,b);
+temp = a;
+a = b;
+b = temp;
+
+console.log(a,b);
+
+console.log('-------------------------------------------');
+
+
+// method - 2
+let x = 5;
+let y = 6;
+
+[x,y] = [y,x];
+console.log(x, y);
+
+console.log('-------------------------------------------');
+
+
+// method - 3
+let ab = 5;
+let cd = 6;
+ab = ab + cd;
+cd = ab - cd;
+ab = ab - cd;
+
+console.log(ab,cd);
