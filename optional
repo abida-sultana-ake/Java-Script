@@ -1,0 +1,26 @@
+const nayok = {
+    name : 'Sakib Khan',
+    id : 212,
+    address : '3/2, Jigatola, Dhaka',
+    isSingle : true,
+    friends : ['Apu', 'Raaz', 'Salman', 'Amir'],
+    movies : [{name: 'no. 1', year: 2015}, {name: 'no. 1', year: 2015}],
+act : function() {
+    console.log('Acting like skib khan')
+},
+
+    car : {
+        brand : 'Tesla',
+        price : 50000000,
+        made : 2025,
+        menufacture : {
+            name : 'Tesla',
+            CEO : 'Elon mask',
+            country : 'USA'
+        }
+    }
+}
+
+//console.log(student.car);
+console.log(nayok.act);
+nayok.act();
