@@ -1,0 +1,26 @@
+const products =[
+    {id: 1, name: "iPhone", color: "Black", price: 1200, brand: "Apple"},
+    {id: 2, name: "Xio-Mi-23X", color: "gray", price: 2200, brand: "Mi"},
+    {id: 3, name: "OPPOO", color: "white", price: 1100, brand: "Oppo"},
+    {id: 4, name: "Samsung S24", color: "silver", price: 4100, brand: "Samsung"},
+    {id: 5, name: "iPhone", color: "white", price: 7100, brand: "Apple"}
+];
+
+
+// Method - 1: forEach
+// forEach doesn't return anything
+products.forEach(product=> {
+    // console.log(product)
+    if(product.color==="white")
+    {
+        console.log(product);
+    }
+})
+
+//Method - 2: filter
+const newProducts = products.filter(product=>product.price>1300);
+console.log(newProducts);
+
+//Method - 3: find
+const product = products.find(p=> p.id == 4);
+console.log(product);
