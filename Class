@@ -1,0 +1,17 @@
+class Person { 
+    constructor(name, age)
+    {
+       this.name = name;
+       this.age = age;
+    }
+ }
+ 
+ //const Abida = new Person("Abida", 22); 
+ //console.log(Abida);
+
+class Abida extends Person{
+    constructor(name,age, status)
+    {
+        super(name,age);
+    }
+}
